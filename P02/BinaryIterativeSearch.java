@@ -15,7 +15,7 @@ public class BinaryIterativeSearch implements Practice2Search {
 		while (min < max) {
 			int mid = (min + max) / 2;
 			
-			if (target == mid) {
+			if (mid == target) {
 				return mid;
 			} else if(target > mid) {
 				min = mid + 1;
